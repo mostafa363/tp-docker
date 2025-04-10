@@ -1,0 +1,20 @@
+Réponses aux questions de réflexion
+
+
+Différence entre Dockerfile et docker-compose.yml :
+
+-Un Dockerfile définit l'image Docker d'un service (comment construire et exécuter l'application dans un conteneur).
+
+-Un docker-compose.yml orchestre plusieurs conteneurs, définissant les services, les réseaux et les volumes.
+
+Avantages de séparer les services dans Docker :
+
+-Chaque service (par exemple, frontend et backend) est isolé, ce qui facilite la gestion, les mises à jour, et les tests indépendants.
+
+Comment Docker Compose facilite le travail en équipe et le déploiement :
+
+-Il simplifie la configuration d'environnements complexes, permettant à chaque développeur de partager un environnement similaire. Cela facilite également les déploiements en production.
+
+Pourquoi publier une image sur Docker Hub :
+
+-Cela permet de partager facilement ton image avec d'autres, d'assurer la portabilité, et de gagner du temps en réutilisant des images existantes pour d'autres projets ou en production.
